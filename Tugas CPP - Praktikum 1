@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    const float PI = 3.14;
+    const int Alas = 10, Tinggi = 20, r = 100;
+    cout << "1. Anda diundang rapat pada hari Jum'at / pukul 14.00 WIB" << endl;
+    cout << endl;
+    cout << "2. Luas segitiga jika diketahui alas=10 dan tinggi=20 : " << endl;
+    cout << "Alas = " << Alas << endl;
+    cout << "Tinggi = " << Tinggi << endl;
+    float luas = Alas * Tinggi / 2;
+    cout << "\tLuas segitiga = a x t / 2" << endl;
+    cout << "\tLuas segitiga = " << luas << endl;
+    cout << endl;
+    cout << "3. Mencari luas dan keliling lingkaran jika diketahui jari-jari lingkaran = 100 : " << endl;
+    cout << "\tLuas lingkaran = PI x r x r" << endl;
+    float luas_lingkaran = PI * r * r;
+    cout << "\tLuas lingkaran = " << luas_lingkaran << endl;
+    cout << endl;
+    cout << "\tKeliling lingkaran = 2 x PI x r" << endl;
+    float keliling_lingkaran = 2 * PI * r;
+    cout << "\tKeliling lingkaran = " << keliling_lingkaran << endl;
+    return 0;
+}
